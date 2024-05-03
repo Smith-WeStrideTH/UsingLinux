@@ -5,7 +5,7 @@ echo -e "$STR" | sort -r | grep 3 > string.txt
 
 #example using and logic
 false && touch falsefile.txt
-true && touch truefile.txt
+true && touch falsefile.txt
 
 #example using append
 echo "I love you" > append.txt
